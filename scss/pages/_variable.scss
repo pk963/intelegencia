@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+$fontfamily: "Source Sans 3", sans-serif;
+$white: #fff;
+$white-f:#DFDFDF;
+$black: #000;
+$blue:#141533;
+$sky-blue:#2494ea;
+$green-l: #93D522;
+
+
+/*---- reset style ----*/ 
+*,
+::before,
+::after {
+  margin: unset;
+  padding: unset;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+a {
+  text-decoration: unset;
+}
+
+.coustom-container {
+  max-width: min(100% - 2rem, 1400px);
+}
+
+// 
+.dropdown-toggle::after {
+    border: unset;
+    content: '\f063';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 15px;
+}
